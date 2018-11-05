@@ -21,7 +21,7 @@ body{
 }
 .main{
     padding:2em;
-    height:80vh; 
+    height:420px; 
     text-justify: auto;
     background-image: linear-gradient(yellow,orange);
 } 
