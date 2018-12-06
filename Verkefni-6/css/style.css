@@ -149,6 +149,17 @@ footer{
 }
 @media screen and (min-width: 80em){
     .staerrimynd{
+        display: none;
+    }
+    .midjumynd{
+        display:block;
+    }
+    .litlamynd{
+        display: none;
+    }
+}
+@media screen and (min-width: 1600px){
+    .staerrimynd{
         display: block;
     }
     .midjumynd{
