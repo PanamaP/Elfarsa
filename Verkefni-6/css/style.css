@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+/* yfir allt */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* haus */
+header{
+    background: rgb(51,124,148);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+header a:hover{
+    font-weight: bold;
+}
+header li{
+    display: inline;
+    float:left;
+    padding: 0 15px 0 15px;
+}
+header #verkefni{
+    float: left;
+}
+header #verkefni h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+/*body */
+#tolvupostur{
+    color: white;
+    background:rgb(75, 132, 150);
+    padding: 15px;
+}
+
+#tolvupostur h1{
+    float:left;
+}
+#tolvupostur form{
+    float: right;
+    margin-top: 15px;
+}
+
+/*hlidin*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+article#column{
+    float: left;
+    width: 65%
+}
+.kassi{
+    background: rgb(75, 132, 150);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:white;
+    background-color:rgb(51, 124, 148);
+    text-align: center;
+}
+@media screen and (min-width: 30em){
+    .staerrimynd{
+        display: none;
+    }
+    .midjumynd{
+        display:none;
+    }
+    .litlamynd{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 37.5em){
+    header #verkefni,
+    header nav,
+    header nav li,
+    #tolvupostur h1,
+    #tolvupostur form,
+    article#column,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+    
+}
+@media screen and (max-width: 48em){
+    header #verkefni
+    header nav,
+    header nav li,
+    #tolvupostur h1,
+    #tolvupostur form,
+    article#column,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+    
+}
+@media screen and (min-width: 60em){
+    header #verkefni
+    header nav,
+    header nav li,
+    article#column,{
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+    .staerrimynd{
+        display: none;
+    }
+    .midjumynd{
+        display:block;
+    }
+    .litlamynd{
+        display: none;
+    }
+}
+@media screen and (min-width: 80em){
+    .staerrimynd{
+        display: block;
+    }
+    .midjumynd{
+        display:none;
+    }
+    .litlamynd{
+        display: none;
+    }
+}
+@media screen and (max-width: 30em){
+    .staerrimynd{
+        display: none;
+    }
+    .midjumynd{
+        display:none;
+    }
+    .litlamynd{
+        display: block;
+    }
+}
+
+
+
+
