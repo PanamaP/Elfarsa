@@ -90,19 +90,6 @@ footer{
 }
 @media screen and (min-width: 30em){
     
-}
-@media screen and (min-width: 37.5em){
-    header #verkefni,
-    header nav,
-    header nav li,
-    #tolvupostur h1,
-    #tolvupostur form,
-    article#column,
-    aside#sidebar{
-        float: none;
-        text-align: center;
-        width: 100%
-    }
     .staerrimynd{
         display: none;
     }
@@ -114,8 +101,21 @@ footer{
     }
     
 }
-@media screen and (min-width: 48em){
-    header #verkefni
+@media screen and (min-width: 37.5em){
+    
+    .staerrimynd{
+        display: none;
+    }
+    .midjumynd{
+        display:block;
+    }
+    .litlamynd{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 48em){
+    header #verkefni,
     header nav,
     header nav li,
     #tolvupostur h1,
