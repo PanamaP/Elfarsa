@@ -89,15 +89,6 @@ footer{
     text-align: center;
 }
 @media screen and (min-width: 30em){
-    .staerrimynd{
-        display: none;
-    }
-    .midjumynd{
-        display:none;
-    }
-    .litlamynd{
-        display: block;
-    }
     
 }
 @media screen and (max-width: 37.5em){
@@ -111,6 +102,15 @@ footer{
         float: none;
         text-align: center;
         width: 100%
+    }
+    .staerrimynd{
+        display: none;
+    }
+    .midjumynd{
+        display:none;
+    }
+    .litlamynd{
+        display: block;
     }
     
 }
@@ -148,17 +148,6 @@ footer{
     }
 }
 @media screen and (min-width: 80em){
-    .staerrimynd{
-        display: none;
-    }
-    .midjumynd{
-        display:block;
-    }
-    .litlamynd{
-        display: none;
-    }
-}
-@media screen and (min-width: 1600px){
     .staerrimynd{
         display: block;
     }
